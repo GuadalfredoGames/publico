@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+autor: Carlos Boni
+fecha: Diciembre 2020
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Titulo en Etiqueta del Navegador</title>
+	
+	<!-- solo aquellos estilos que solo aplican a esta pagina -->
+    <style>
+		body {
+			background: rgba(0, 0, 128, 0.1) /* Azul al 10% */
+		}
+		.pos-static{
+			background-color: pink;
+			position:static;
+			/* Este es el posicionamiento normal de html/css por defecto; 
+				no aplica desplazamiento*/
+			left:50px;
+			top:50px;
+		}
+		.pos-relative{
+			background-color: red;
+			position:relative;
+			/* se mueve tomando como referencia su lugar, es decir desde donde se supone que iba a estar de normal,
+				se aplican los bordes y su posicion sigue estando ocupada. Se comporta como display block*/
+			left:50px;
+			top:50px;
+		}
+		.pos-absolute{
+			background-color: yellow;
+			position:absolute;
+			/* Aqui se efectuan los bordes de forma absoluta, es decir teniendo en cuenta la pagina, es decir la posicion
+				basica de la pagina normal, se aplican los bordes desde los bordes de la pagina. SU POSICION QUEDA LIBRE Y SE RESTRINGE EL COLOR
+				A LO QUE OCUPA EL TEXTO. ADEMAS ESTA "FLOTANDO". Se comporta como un float*/
+			left:50px;
+			top:60px;
+		}
+		.pos-fixed{
+			background-color: green;
+			position:fixed;
+			/*flota como el absolute pero se queda fijo al hacer el scroll, como si flotara con la pantalla. por alguna razon, el text-align:center se va al 
+				centro de la pagina pero en vertical en vez de en horizontal*/
+			left:50px;
+			top:60px;
+			text-align:center;
+			
+		}
+		.pos-sticky{
+			background-color: blue;
+			position:sticky;
+			/* es como el absolute, flota pero en su posicion y al llegar a la distancia correcta mantiene los bordes con la pagina flotando hacia abajo*/
+			left:50px;
+			top:60px;
+		}
+		
+	</style>
+	
+	
+	
+</head>
+
+
+<body>
+
+	<!-- cabecera de pagina -->
+	<header>
+		<h1>Posicion CSS</h1>
+		<h2>STATIC</h2>
+		<br/>
+	</header>
+	
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p class="pos-static"> 1-STATIC</p>
+	<p class="pos-absolute"> 2-ABSOLUTE</p>
+	<p class="pos-relative"> 3-RELATIVE</p>
+	<p class="pos-fixed"> 4-FIXED</p>
+	<p class="pos-sticky"> 5-STICKY</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	<p> Esto es un parrafo de texto para la prueba del funcionamiento del ejercicio</p>
+	
+
+	<!-- pie de pagina -->
+	<footer>
+		<br/><br/><br/>
+		<div>&copy; 2020 <a href="https://carlosboni.com" target="_blank">Prof. Carlos Boni</a></div>
+	</footer>
+
+	
+</body>
+</html>
