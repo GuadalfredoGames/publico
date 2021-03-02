@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina: Creacion de un menu horizontal
+autor: Carlos Boni
+fecha: Diciembre 2020
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Menú horizontal</title>
+	
+	
+	
+	<!-- solo aquellos estilos que solo aplican a esta pagina -->
+    <style>
+		*{
+			box-sizing:border-box;
+			margin:0px;
+		}
+		
+		body {
+			background: rgba(0, 0, 128, 0.1) /* Azul al 10% */
+		}
+		
+		.grande{
+		background-color:rgba(0,0,0,0.4);
+		position:absolute;
+		display:flex;
+		flex-direction:row;
+		height:50px;
+		min-width:100%;
+		padding:10px;
+		}
+		
+		.menu{
+			color:white;
+			height:10px;
+			padding:5px;
+		}
+		
+		.ejercicios{
+			color:white;
+			float:left;
+			padding:5px;
+		}
+		
+		a{
+		}
+		
+		ul{
+			background-color:rgba(255,135,0,1);
+			color:white;
+			list-style-type:square;
+			width:140px;
+			
+		}
+		
+	</style>
+	
+</head>
+
+
+<body>
+
+	
+	
+	<!-- bloque de contenido de la pagina -->
+	<main>
+		<div class="grande">
+		<div class="menu">
+		<a href="">Pag Principal</a>
+		</div>
+		<div class="ejercicios">
+			<details>
+				<summary>
+					Ejercicios
+				</summary>
+				<ul>
+					<li><a href="">Ejercicio 1</a></li>
+					<li><a href="">Ejercicio 2</a></li>
+					<li><a href="">Ejercicio 3</a></li>
+				</ul>
+				</summary>
+			</details>
+			
+			
+		</div>
+		</div>
+	</main>
+
+
+	<!-- pie de pagina -->
+	<footer>
+		<br/><br/><br/>
+		<div>&copy; 2020 <a href="https://carlosboni.com" target="_blank">Prof. Carlos Boni</a></div>
+	</footer>
+
+</body>
+</html>
