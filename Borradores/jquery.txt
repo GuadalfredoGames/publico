@@ -1,0 +1,23 @@
+<details>
+	<summary>INDICE de mi repositorio publico:</summary>
+	<ul>
+		<li><a href="ejercicios/teclas.html">Ejercicio teclas</a></li>
+	</ul>
+</details>
+
+---------------------------------------------------------------------------------------------------------
+<p>Complete el formulario:</p> 
+<input type="text" name="nombre"/>
+<input type="text" name="apellido"/>
+
+<script>
+$(document).ready(function(){
+	 $("input").focus(function(){
+		$(this).css("background-color", "yellow");
+	 });
+	 $("input").blur(function(){
+		$(this).css("background-color", "white");
+	 }); 
+ });
+</script>
+--------------------------------------------------------------------------------------------------------------
