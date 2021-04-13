@@ -1,0 +1,184 @@
+/* Archivo css del proyecto final del curso 1º-DAM.
+Autot: Mario Castillo Fernández
+Curso: 1º-DAM CENEC
+Fecha: 13/4/2021
+------------------------------------------------------------------------------------------------*/
+
+		*{
+		  box-sizing: border-box;
+		  padding: 0;
+		  margin: 0;
+		}
+		
+		body{
+			background-color:rgba(0,0,0,0.2);
+		}
+		
+		.navbar {
+		  overflow: hidden;
+		  background-color: #333;
+		}
+		#mensaje{
+			float:right;
+			color:white;
+			text-align:center;
+			padding-top: 120px;
+			padding-right:10px;
+		}
+		
+		.navbar a {
+		  float: left;
+		  font-size: 16px;
+		  color: white;
+		  text-align: center;
+		  padding:63px;
+		  padding-top:20px;
+		  padding-bottom:20px;
+		  text-decoration: none;
+		}
+		
+		.navbar a:hover, .dropdown:hover .dropbtn {
+		  background-color: rgba(0,255,255,0.7);
+		}
+		
+		
+
+		a:active {
+			color:yellow;
+		}
+		
+		#pieDePagina{
+			color:orange;
+		}
+		
+		.marco {
+		  display: grid;
+		  border-style: solid;
+		  border-color: red;
+		  grid-template-columns: auto;
+		  grid-template-rows: 60px 40px auto 40px;
+		  grid-gap: 10px;
+		  width: 100vw;
+		  height: 100vh;
+		}
+		
+		.encabezado {
+		  height:fit-content;
+		  border-style: solid;
+		  background-color:grey;
+		  border-color: blue;
+		  grid-column: 1 / span 2;
+		  grid-row: 1 / span 1;
+		}
+		
+		.migas {
+		  text-align:center;
+		  border-style: solid;
+		  border-color: yellow;
+		  grid-column: 1 / span 2;
+		  grid-row: 2 / span 1;
+		}
+		
+		.lado {
+		  
+		}
+		
+		.contenido {
+		  height:auto;
+		  overflow:auto;
+		  border-style: solid;
+		  border-color: violet;
+		  grid-column: 1 / span 2;
+		  grid-row: 3 ;
+		}
+		
+		.pie {
+		  background-color:black;
+		  border-style: solid;
+		  border-color: aqua;
+		  grid-column: 1 / span 2;
+		  grid-row: 4 / span 1;
+		}
+		
+		#correo{
+			color:rgba(0,205,205,1);
+			padding:7px 5px;
+			float:left;
+			text-align:center;
+			font-size:1.1em;
+			
+		}
+		#año{
+			float:right;
+			padding:5px 5px;
+			text-align:right;
+			font-size:1.3em;
+			color:rgba(255,0,0,0.5);
+		}
+		
+		#mensaje{
+			text-align:center;
+		}
+		
+		#parrafo1{
+			width:auto;
+			font-size: x-large;
+			padding-top:15px;
+			text-align:justify;
+			padding-left:5px;
+			padding-right:5px;
+		}
+		
+		#parrafo2{
+			width:auto;
+			font-size: x-large;
+			padding-top:35px;
+			text-align:center;
+		}
+		
+		#javaLogo{
+			float:left;
+			padding:10px 10px;
+		}
+		
+		#logohtml{
+			float: right;
+			padding: 10px 10px;
+			padding-top:25px;
+			height:275px;
+			width:250px;
+		}
+		
+		#logo_barra{
+			box-sizing:border-box;
+			width:80px;
+			height:58px;
+			float:left;
+			padding:clear;
+			padding-left:10px;
+			padding-right:10px;
+		}
+		
+		ul.breadcrumb {
+			height:100%;
+			padding:5px 16px;
+			list-style: none;
+			background-color: grey;
+		}
+		ul.breadcrumb li {
+			display: inline;
+			font-size: 18px;
+		}
+		ul.breadcrumb li+li:before {
+			padding: 8px;
+			color: black;
+			content: " > ";
+		}
+		ul.breadcrumb li a {
+			color: rgba(128,0,128,0.8);
+			text-decoration: none;
+		}
+		ul.breadcrumb li a:hover {
+			color: rgba(255,255,0,0.8);
+			text-decoration: ;
+		}
