@@ -120,33 +120,21 @@ Fecha: 13/4/2021
 			text-align:center;
 		}
 		
-		#parrafo1{
+		.parrafoDerecha{
+			width:auto;
+			padding-top:15px;
+			text-align:justify;
+			padding-left:15px;
+			padding-right:15px;
+		}
+		
+		.parrafoIzquierda{
 			width:auto;
 			font-size: x-large;
 			padding-top:15px;
 			text-align:justify;
 			padding-left:5px;
 			padding-right:5px;
-		}
-		
-		#parrafo2{
-			width:auto;
-			font-size: x-large;
-			padding-top:35px;
-			text-align:center;
-		}
-		
-		#javaLogo{
-			float:left;
-			padding:10px 10px;
-		}
-		
-		#logohtml{
-			float: right;
-			padding: 10px 10px;
-			padding-top:25px;
-			height:275px;
-			width:250px;
 		}
 		
 		#logo_barra{
@@ -157,6 +145,32 @@ Fecha: 13/4/2021
 			padding:clear;
 			padding-left:10px;
 			padding-right:10px;
+		}
+		
+		.divPelicula{
+			font-size: x-large;
+		}
+		
+		.divPeliculaDerecha{
+			font-size:x-large;
+			text-align:right;
+		}
+		
+		.parrafoPelicula{
+		}
+		
+		.fotoIzquierda{
+			float:left;
+			padding:10px 10px;
+			height:30vh;
+			width:20.5vh;
+		}
+		
+		.fotoDerecha{
+			float:right;
+			padding:10px 10px;
+			height:30vh;
+			width:20.5vh;
 		}
 		
 		ul.breadcrumb {
