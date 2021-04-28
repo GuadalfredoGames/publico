@@ -137,6 +137,12 @@ Fecha: 13/4/2021
 			padding-right:5px;
 		}
 		
+		.titulos{
+			text-align:center;
+			font-size:xx-large;
+			padding-top:5px;
+		}
+		
 		#logo_barra{
 			box-sizing:border-box;
 			width:80px;
