@@ -92,6 +92,20 @@ Fecha: 13/4/2021
 		  grid-row: 3 ;
 		}
 		
+		.contenidoCreditos {
+		  height:auto;
+		  overflow:auto;
+		  border-style: solid;
+		  border-color: violet;
+		  grid-column: 1 / span 2;
+		  grid-row: 3 ;
+		  background-image:url("../media/logo_barra.png");
+		  background-attachment:fixed;
+		  background-position:center;
+		  background-repeat:no-repeat;
+		  background-size:contain;
+		}
+		
 		.pie {
 		  background-color:black;
 		  border-style: solid;
@@ -137,6 +151,16 @@ Fecha: 13/4/2021
 			padding-right:5px;
 		}
 		
+		.parrafoCentro{
+			width:100%;
+			float:center;
+			font-size: x-large;
+			padding-top:15px;
+			text-align:justify;
+			padding-left:5px;
+			padding-right:5px;
+		}
+		
 		.titulos{
 			text-align:center;
 			font-size:xx-large;
@@ -157,12 +181,18 @@ Fecha: 13/4/2021
 			font-size: x-large;
 		}
 		
+		.divCreditos{
+			font-size: x-large;
+			background-color:rgba(255,255,255,0.4);
+		}
+		
 		.divPeliculaDerecha{
 			font-size:x-large;
 			text-align:right;
 		}
 		
-		.parrafoPelicula{
+		.botonSesion{
+			float:center;
 		}
 		
 		.fotoIzquierda{
