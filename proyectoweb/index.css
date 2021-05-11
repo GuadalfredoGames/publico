@@ -100,10 +100,10 @@ Fecha: 13/4/2021
 		  grid-column: 1 / span 2;
 		  grid-row: 3 ;
 		  background-image:url("../media/logo_barra.png");
-		  background-attachment:fixed;
 		  background-position:center;
 		  background-repeat:no-repeat;
 		  background-size:contain;
+		  
 		}
 		
 		.pie {
