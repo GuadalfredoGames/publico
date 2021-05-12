@@ -106,7 +106,7 @@ Fecha: 13/4/2021
 		  background-position:center;
 		  background-repeat:no-repeat;
 		  background-size:contain;
-		  
+		  text-align:justify;
 		}
 		
 		.pie {
@@ -154,6 +154,15 @@ Fecha: 13/4/2021
 			padding-right:5px;
 		}
 		
+		.parrafoCreditos{
+			width:auto;
+			font-size: x-large;
+			padding-top:15px;
+			padding-left:50px;
+			padding-right:10px;
+			text-align:justify;
+		}
+		
 		.parrafoCentro{
 			width:100%;
 			float:center;
@@ -186,7 +195,9 @@ Fecha: 13/4/2021
 		
 		.divCreditos{
 			font-size: x-large;
-			background-color:rgba(255,255,255,0.4);
+			background-color:rgba(255,255,255,0.7);
+			padding-left:10px;
+			padding-right:10px;
 		}
 		
 		.divPeliculaDerecha{

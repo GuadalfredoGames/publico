@@ -86,7 +86,7 @@ function controlar(){
 		  miFuncion(this);
 		}
 	  };
-	  xhr.open("GET", "https://carlosboniniklison.github.io/publico/ejercicios/xml/registrados.xml", true);
+	  xhr.open("GET", "https://guadalfredogames.github.io/publico/proyectoweb/validacionUsuarios.xml", true);
 	  xhr.send();
 	}
 
