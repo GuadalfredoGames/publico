@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+Tema: Web Storage - localstorage y sessionstorage 
+alumno: Carlos Boni
+fecha: 12 mayo - parte login
+-->
+
+<head>
+  <title>FORMULARIO LOGIN</title>
+  <meta charset="UTF-8"/>  
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<link rel="stylesheet" href="12mayo-login-desconectar.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="12mayo-login-desconectar.js"></script>
+	
+
+</head>
+
+
+<body onload="controlar()">
+
+	<header>
+		<h1>INICIO DE SESION</h1>
+
+	</header>
+				<form id="ingresar" name="miFormulario" onSubmit="return intentar()">
+				  <label for="apellido">Usuario:</label>
+				  <input type="text" id="usr" name="usrIntentando" required><br>
+				  <label for="apellido">Clave:</label>
+				  <input type="text" id="clv" name="claveIntentando" required><br>
+				  <input type="submit" value="INGRESAR">
+				</form>
+				<input type="button" id="desconectar" value="DESCONECTAR" onclick="return desconectar()"></input>
+ 
+</body>
+</html>
+
+
+
