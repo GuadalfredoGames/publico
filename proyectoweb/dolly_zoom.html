@@ -22,7 +22,7 @@ fecha: Marzo 2021
 	<!-- una hoja de estilos externa-->
 	
 	<!-- una hoja de estilos personalizada-->
-	<link href="./index.css" rel="stylesheet"/>
+	<link href="./dolly_zoom.css" rel="stylesheet"/>
 	
 	<!-- iconos u otros elementos externos -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
@@ -32,7 +32,7 @@ fecha: Marzo 2021
 	
 	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="./inicio_de_sesion.js"></script>
+	<script src="inicio_de_sesion.js"></script>
 
 	
 	
@@ -46,32 +46,27 @@ fecha: Marzo 2021
 			<div class="navbar">
 				<img src="../media/logo_barra.png" id="logo_barra">
 				<a href="./index.html">Inicio</a>
-				<a href="#" id="mensajeSesion"></a>
-				<a href="./dolly_zoom.html">Dolly Zoom</a>
+				<a href="./inicio_de_sesion.html" id="mensajeSesion"></a>
+				<a href="#">Dolly Zoom</a>
 				<div id="mensajeUSR"></div>
 			</div>
 		</div>
 		<div class="migas">
 			<ul class="breadcrumb">
 				<li><a href="./index.html">Página de Inicio</a></li>
-				<li>Inicio de Sesión</li>
+				<li>Créditos de la Página</li>
 			</ul>
 		</div>
-		<div class="contenido">
-			<p class="parrafoCentro">
-				<form id="ingresar" name="miFormulario" onSubmit="return intentar()" method="get">
-				  <label for="username"><h4>&nbsp Nombre de Usuario:</h4></label>
-				  &nbsp &nbsp <input type="text" id="usr" name="usrIntentando" required>
-				  <label for="password"><h4>&nbsp Contraseña:</h4></label>
-				  &nbsp &nbsp <input type="text" id="clv" name="claveIntentando" required></br></br>
-				  &nbsp &nbsp &nbsp <input class="botonSesion" type="submit" value="Iniciar Sesión">
-				</form> 
-				&nbsp &nbsp &nbsp <input type="button" id="desconectar" value="Cerrar Sesión" onclick="return desconectar()"></input>
-			</p>
+		<div class="contenidoCreditos">
+				<div class="container">
+					<div class="front"><img src="../media/logo_barra.png" alt="baby" /></div>
+					<div class="background"><img src="../media/cine.jpg" alt="" />
+					</div>
+				</div></br>
 		</div>
 		<div class="pie">
 			<p id="correo">
-				<a id="pieDePagina" href="./creditos-de-la-pagina.html">CREDITOS DE LA PAGINA</a>
+				<a id="pieDePagina" href="#">CREDITOS DE LA PAGINA</a>
 			<p/>
 			<p id="año">&copy; 2021</p>
 		</div>
