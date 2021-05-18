@@ -133,8 +133,15 @@ Fecha: 13/4/2021
 			color:rgba(255,0,0,0.5);
 		}
 		
-		#mensaje{
+		#mensajeUSR{
+			float:right;
+			color:white;
 			text-align:center;
+			padding-top:20px;
+			padding-right:10px;
+		}
+		
+		#mensajeSesion{
 		}
 		
 		.parrafoDerecha{

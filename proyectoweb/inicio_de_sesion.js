@@ -47,6 +47,7 @@ function controlar(){
 			//$("#desconectar").hide();
 		//}
 	}
+	nombreUSR();
 }
 
 
@@ -111,3 +112,14 @@ function controlar(){
 	  }
 	  return;
 	}
+	
+	function nombreUSR(){
+	if(sessionStorage.usrLogueado){
+		$("#mensajeUSR").text('Bienvenido ' + sessionStorage.getItem("usrLogueado"));
+		$("#mensajeSesion").text('Cerrar Sesión');
+	}
+	else{
+		$("#mensajeUSR").text('Usuario anónimo. Inicie sesión');
+		$("#mensajeSesion").text('Iniciar Sesión');
+	}
+}
