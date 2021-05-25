@@ -257,3 +257,59 @@ Fecha: 13/4/2021
 			height:25vw;
 			padding-left:15px;
 		}
+		
+		@media screen and (max-width:600px){
+			.marco {
+				grid-template-rows: 150px 40px 500px 80px;
+				border-style: hidden;
+			}
+			
+			.navbar {
+				display: block !important;
+				height: auto;
+			}
+			
+			.navbar a {
+			  padding:0px;
+			  padding-top:7px;
+			  padding-bottom:7px;
+			}
+			
+			ul.breadcrumb li {
+				font-size: inherit;
+			}
+			
+			.divPelicula{
+				font-size: large;
+			}
+			
+			.titulos{
+				font-size:x-large;
+			}
+			
+			.divPeliculaDerecha {
+				font-size: large;
+			}
+			
+			a#mensajeSesion {
+				width: 100%;
+				text-align:center;
+			}
+			
+			u {
+				font-size: x-large;
+			}
+			
+			.divCreditos {
+				font-size: large;
+			}
+			
+			div#mensajeUSR {
+				float: none;
+			}
+			
+			a {
+				width: 100%;
+			}
+			
+		}
