@@ -49,8 +49,15 @@ function controlar(){
 	}
 	nombreUSR();
 }
-
-
+	function modoNoche(){
+		var element = document.getElementById("contenido");
+		element.classList.toggle("dark-mode");
+	}
+	
+	function modoNocheC(){
+		var element = document.getElementById("divCreditos");
+		element.classList.toggle("dark-mode2");
+	}
 	
 	function desconectar(){
 		sessionStorage.removeItem("usrLogueado");
@@ -122,4 +129,6 @@ function controlar(){
 		$("#mensajeUSR").text('Usuario anónimo. Inicie sesión');
 		$("#mensajeSesion").text('Iniciar Sesión');
 	}
+	
+	
 }

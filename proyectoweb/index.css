@@ -81,7 +81,7 @@ Fecha: 13/4/2021
 		  
 		}
 		
-		.contenido {
+		#contenido {
 		  height:auto;
 		  overflow:auto;
 		  border-style: solid;
@@ -93,7 +93,12 @@ Fecha: 13/4/2021
 			, #fd00ff54, #ffffffb8);
 		}
 		
-		.contenidoCreditos {
+		.dark-mode {
+			background-color: black;
+			color: white;
+		}
+		
+		#contenidoCreditos {
 		  height:auto;
 		  overflow:auto;
 		  border-style: solid;
@@ -105,6 +110,11 @@ Fecha: 13/4/2021
 		  background-repeat:no-repeat;
 		  background-size:contain;
 		  text-align:justify;
+		}
+		
+		.dark-mode2{
+			background: linear-gradient(178deg, #000000a8, #000000a8);
+			color:white;
 		}
 		
 		.pie {
@@ -198,7 +208,7 @@ Fecha: 13/4/2021
 			font-size: x-large;
 		}
 		
-		.divCreditos{
+		#divCreditos{
 			font-size: x-large;
 			background-color:rgba(255,255,255,0.7);
 			padding-left:10px;
@@ -258,9 +268,9 @@ Fecha: 13/4/2021
 			padding-left:15px;
 		}
 		
-		@media screen and (max-width:600px){
+		@media screen and (max-width:800px){
 			.marco {
-				grid-template-rows: 150px 40px auto 80px;
+				grid-template-rows: 183px 40px auto 80px;
 				border-style: hidden;
 			}
 			
