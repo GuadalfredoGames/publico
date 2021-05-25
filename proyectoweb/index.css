@@ -312,4 +312,9 @@ Fecha: 13/4/2021
 				width: 100%;
 			}
 			
+			iframe.videoCabañita {
+				width: 96%;
+				height: 170px;
+			}
+			
 		}
