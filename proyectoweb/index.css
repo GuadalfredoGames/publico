@@ -270,7 +270,7 @@ Fecha: 13/4/2021
 		
 		@media screen and (max-width:884px){
 			.marco {
-				grid-template-rows: 183px 40px auto auto;
+				grid-template-rows: 183px 40px auto fit-content;
 				border-style: hidden;
 			}
 			
