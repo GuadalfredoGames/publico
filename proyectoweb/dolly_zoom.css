@@ -309,9 +309,9 @@ Fecha: 13/4/2021
 				  transition: transform 10s;
 		}
 		
-		@media screen and (max-width:600px){
+		@media screen and (max-width:1093px){
 			.marco {
-				grid-template-rows: 150px 40px auto 80px;
+				grid-template-rows: 183px 40px auto 40px;
 				border-style: hidden;
 			}
 			
@@ -363,4 +363,10 @@ Fecha: 13/4/2021
 				width: 100%;
 			}
 			
+		}
+		
+		@media screen and (max-width:516px){
+			.marco {
+				grid-template-rows: 183px 40px auto 80px;
+			}
 		}
