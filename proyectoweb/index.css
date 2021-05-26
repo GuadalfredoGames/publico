@@ -268,9 +268,9 @@ Fecha: 13/4/2021
 			padding-left:15px;
 		}
 		
-		@media screen and (max-width:800px){
+		@media screen and (max-width:884px){
 			.marco {
-				grid-template-rows: 183px 40px auto 80px;
+				grid-template-rows: 183px 40px auto auto;
 				border-style: hidden;
 			}
 			
